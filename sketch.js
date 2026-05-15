@@ -5,8 +5,8 @@ let GAME_RUNNING = true
 let STARTING_TIME, TIME_ELAPSED, ELO
 
 function preload() {
-  knt = loadImage("https://schnitza.github.io/assets/knight_vector.svg")
-  sound_move = loadSound("https://schnitza.github.io/assets/place.mp3")
+  knt = loadImage("https://schnitza.github.io/knight_hike/assets/knight_vector.svg")
+  sound_move = loadSound("https://schnitza.github.io/knight_hike/assets/place.mp3")
 }
 
 function setup() {
